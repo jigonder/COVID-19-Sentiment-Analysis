@@ -1,19 +1,15 @@
 
-/* change the background color */
 .navbar {
-  background-color: darkred;
+  background-color: lightskyblue
 }
 
-/* change the brand and text color */
 .navbar .navbar-brand,
 .navbar.navbar-text {
   color:black
 }
-/* change the link color */
 .navbar .navbar-nav .nav-link {
   color:darkblue
 }
-/* change the color of active or hovered links */
 .navbar.nav-item.active .nav-link,
 .navbar .nav-item:focus .nav-link,
 .navbar .nav-item:hover .nav-link {
@@ -22,9 +18,47 @@
 
 p {
   font-size: 16pt;
+  text-indent: 50px
 }
 
-marquee {
-  font-size: 25pt;
-  font-weight: bold;
+figcaption {
+  font-size: 18pt;
 }
+
+.column {
+  float: left;
+  width: 50%;
+}
+.fixpixel img{
+  height: 525px;
+  width: 1720px;
+  margin-left: 0px;
+  margin-right: 0px;
+   }
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 18pt;
+}
+
+ul {
+  font-size: 12pt;
+  text-align: center;
+}
+li {
+  font-size: 10pt;
+  font-weight: bold;
+
+}
+p2 {
+  font-size: 10pt;
+}
+p4{
+  font-size:12pt;
+  text-indent: 50px
+}
+

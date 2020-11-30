@@ -3,7 +3,7 @@ from flask_pymongo import PyMongo
 
 app = Flask(__name__)
 
-# Use flask_pymongo to set up mongo connection
+
 mongo = PyMongo(app, uri = "mongodb://localhost:27017/project_0")
 
 @app.route("/")
@@ -22,10 +22,6 @@ def page_2():
 @app.route("/page_3")
 def page_3():
     return render_template("page_3.html")
-
-@app.route("/page_4")
-def page_4():
-    return render_template("page_4.html")
 
 @app.route("/home")
 def mainpage():

@@ -32,13 +32,30 @@
             </div>
         </nav>
     </div>
-    
-   
+    <style>
+        body, html {
+          height: 100%;
+          margin: 0;
+        }
         
-        <div class="fixpixel">
-                <img alt="IMAGE" src="images/twitter-1.png">
-        </div>
-        <div class="container col-sm-8">
+        .bg {
+          /* The image used */
+          background-image: url("images/twitter-1.png");
+        
+          /* Full height */
+          height: 50%; 
+        
+          /* Center and scale the image nicely */
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        </style>
+        
+        
+        <div class="bg"></div>
+   
+
         <p>
                 Twitter data has proven to be invaluable resource in the extraction of situational awareness information relating to any crisis.
             This has been demonstrated even further with the current world wide pandemic. Our team's goal was to design a sentiment analysis model
