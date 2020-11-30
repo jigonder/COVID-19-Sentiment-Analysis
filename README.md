@@ -1,7 +1,5 @@
 # COVID-19-Sentiment-Analysis
 
-# COVID-19-Sentiment-Analysis
-
 OUTLINE: 
 The goal of this project was to create a machine learning model that was able to determine sentiment from Tweets shared on Twitter. We created a model that was able to determine a tweets sentiment, subjectivity and polarity. We also integrated the use of IMBWatson's Tone Analyzer to take a deeper dive into our data to determine the tone of the tweets (anger, sadness, joy, tenative, confidence, fear and analytical). 
 
