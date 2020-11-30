@@ -18,3 +18,5 @@ MongoDB is used to house the results from Twitter's API.
 Below is a quick look at the app:
 
 ![Home Demo](Images/home.gif)
+![Sentiment Demo](Images/sentiment.gif)
+![Tones Demo](Images/tones.gif)
