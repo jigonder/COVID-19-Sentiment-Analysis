@@ -13,11 +13,13 @@ To view our results please visit:
 
 https://twitterpated-by-coronavirus.herokuapp.com/
 
-Functionality and Backend:
-An overall dashboard displaying visuals built in Tableau. 
+Functionality:
+A linear regression model was utilized to build a sentiment analysis. 
+IMBWatson Tone Analyzer was used to disect different tones. 
+MongoDB is used to house the results from Twitter's API.
+An overall dashboard displaying visuals built in Tableau.These visuals are live and interactive.  
 Each page in the app has a navbar for navigating the application easily.
-Flask is used to structure between the backend and the frontend website.
-MongoDB is used to house the results from Twitter's API. 
+ 
 
 Below is a quick look at the app:
 
