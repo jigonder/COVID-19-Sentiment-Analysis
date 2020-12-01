@@ -17,8 +17,11 @@
 }
 
 p {
-  font-size: 16pt;
-  text-indent: 50px
+  font-size: 0.85rem;
+  text-indent: 50px;
+  text-align: justify;
+  width: 80%;
+  margin: 0 auto;
 }
 
 figcaption {
